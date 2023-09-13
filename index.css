@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Tangerine:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Tangerine; */
+    font-family: Oswald, Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+main {
+    background-image: url(WhatsApp\ Image\ 2023-09-11\ at\ 10.24.45\ AM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+main {
+    border-bottom: solid 10px #fff;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    color: #295a94;
+    font-size: 13rem;
+    font-weight: 700;
+    line-height: 155px;
+}
+
+.titulo>span {
+    font-family: Tangerine;
+    font-size: 20rem;
+}
+
+/* Sobre Mi Styles */
+
+h1 {
+    color: #295a94;
+    text-align: right;
+}
+
+.imagen {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+section {
+    width: 100%;
+    min-height: 90vh;
+
+}
+
+.aboutme {
+    background-color: #e59fa3;
+    color: #fff;
+    min-height: 70vh;
+    padding-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-top: #fff;
+    border-bottom: #fff;
+
+}
+
+.titulo4 {
+    color: #295a94;
+    font-size: 3rem;
+
+}
+
+.containerdescription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9pc;
+}
+
+.descriptionsobremi {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 650px;
+}
+
+/* Cards Styles */
+
+.containerCards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    background-color: #f0dbc7;
+    border-bottom: solid 10px #fff;
+    border-top: solid 10px #fff;
+}
+
+.card {
+
+    border: solid 10px #fff;
+    margin: 0 150px;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: rgb(226, 197, 159);
+}
+
+.lectura {
+    color: #295a94;
+    margin-bottom: 25px;
+}
+
+.parrafo-imgane-hobbi {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.parrafohobbi {
+    color: #ffff;
+    font-size: larger;
+    width: 550px;
+}
+
+.imagen2 {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.card1 {
+    border: solid 10px #ffff;
+    margin: 0 150px;
+    margin-top: 4pc;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: rgb(226, 197, 159)
+}
+
+.Deporte {
+    color: #295a94;
+    margin-bottom: 25px;
+}
+
+.parrafo-imgane-hobbi1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+
+.parrafohobbi {
+    color: #ffff;
+    font-size: larger;
+    width: 550px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imagen3 {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+
+
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e7d7ef;
+
+}
